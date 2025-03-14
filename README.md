@@ -1,4 +1,4 @@
-# FoiceDetect: AI-Powered Voice Detection and Classification
+## Vocalytics
 
 ## Project Overview
 
@@ -52,11 +52,6 @@ We developed Fake Voice Detect, a platform leveraging Nebius AI to identify fake
 - pip
 - git
 
-### Repository Clone
-```bash
-git clone https://github.com/dahomita/foicedetect.git
-cd foicedetect
-```
 
 ### API Key Setup
 
@@ -73,21 +68,4 @@ ASSEMBLY_API_KEY=e98e3dcc13624e2c846c6de74a34809e
 ⚠️ **Security Warning:**
 - Please don't use our key too much
 
-### Backend Setup And Run
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate
-cd foicedetect_backend
-pip install -r requirements.txt
-pip install assemblyai
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
-```
 
-### Frontend Setup And Run
-```bash
-npm install
-npm start
-```
